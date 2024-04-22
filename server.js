@@ -42,7 +42,7 @@ const menuRoutes=require('./routes/menuRoutes.js')
 app.use('/person',personRoutes);
 app.use('/menu',menuRoutes);
 
-const PORT_NO=process.env.PORT||3000;
+const PORT_NO=process.env.PORT||10000;
 app.listen(PORT_NO,()=>{
   console.log("server runnnig on the port number 3000")
 })
